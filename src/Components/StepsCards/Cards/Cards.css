@@ -1,0 +1,47 @@
+.cards{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.cardsImage{
+    position: relative;
+    width: 451px;
+    height: 312px;
+    border-radius: 20px;
+    background-image: linear-gradient(#8197D7, #D9ADE1);
+}
+
+.cardNumber{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 128px;
+    position: absolute; 
+    top: -90px;
+    left: 13px;
+}
+
+.cardsImg {
+    max-width: 100% ;
+    max-height: 100%; 
+    transform: translate(150px, 80px);
+  }
+
+.cardsText{
+    font-family: 'Inter', sans-serif;
+    margin: 40px 10px;
+}
+
+.cardsContent{
+    max-width: 483px;
+    font-size: 24px;
+    color: #e7e7e7a0;
+    font-weight: 100;
+    margin: 10px;
+}
+
+.cardsUrl{
+    margin: 10px;
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+.navbarcontainer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.logo{
+    font-family: 'Lexend', sans-serif;
+    font-size: 40px;
+    margin: 36px 79px;
+}
+
+.buttons{
+    margin: 36px 79px;
+}
+
+.login{
+    color: #0060e8;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.sign_up{
+    color: white;
+    background-color: #0060e8;
+    border: none;
+    padding: 9px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}

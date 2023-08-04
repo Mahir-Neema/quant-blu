@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+.Landing_Page{
+    color: white;
+    margin: 0 97px 0 97px;
+    background-color: transparent;
+}
+
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    margin-top: 100px;
+}
+
+.content_heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    max-width: 625px;
+}
+
+.content_textpara{
+    font-size: 20px;
+}
+
+.get_started{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #0060e8;
+    border: none;
+    margin: 20px 10px;
+    width: 230px;
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}

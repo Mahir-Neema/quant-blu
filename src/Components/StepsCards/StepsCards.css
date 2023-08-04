@@ -1,0 +1,23 @@
+.steps_cards{
+    margin-top: 30px;
+}
+
+.mainheading{
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Inter', sans-serif;
+}
+
+.steps_heading{
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+    color: #5EC5FF;
+    font-family: 'Inter', sans-serif;
+    font-weight:bolder;
+    font-size: 32px;
+}
+
+.cards_info{
+    margin-top: 100px;
+}

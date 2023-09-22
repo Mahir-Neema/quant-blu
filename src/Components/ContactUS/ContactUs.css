@@ -1,0 +1,148 @@
+/* ContactUs.css */
+
+.contact-us {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(142, 142, 142, 0.08);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(25px);
+    color: #FFF;
+    margin: 20px;
+  }
+  
+  .title {
+    font-family: Kanit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .left-section {
+    width: 48%;
+    padding: 20px;
+  }
+  
+  .left-section h3 {
+    font-family: Kanit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  
+  .left-section p {
+    margin: 5px 0;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .right-section {
+    margin-left: 30px;
+    color: #FFF;
+    width: 48%;
+    padding: 20px;
+  }
+  
+  .right-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-section input,
+  .right-section textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 4px;
+  }
+  
+  .right-section textarea {
+    width: 457px;
+    border: none;
+    resize: vertical;
+  }
+  
+  .right-section button {
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 457px;
+    height: 49px;
+    cursor: pointer;
+    border-radius: 30px;
+    background: #0060E8;
+  }
+  
+  /* ImageOnLeft.css */
+
+.container {
+    display: flex;
+    align-items: center; /* Center the items vertically (optional) */
+    margin-top: 10px;
+    margin-bottom: 20px; /* Add some spacing between the image and paragraph */
+  }
+  
+  .image {
+    width: 38px;
+    height: 38px;
+    margin-top: 20px;
+    margin-right: 20px; /* Add some spacing between the image and paragraph */
+    float: left; /* Float the image to the left */
+  }
+  
+  .search-box {
+    display: flex;
+    width: 457px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.12);
+    margin-top: 10px;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    color: #FFF;
+    padding-left: 35px;
+    border: none;
+  }
+  
+  .search-box input::placeholder {
+    color: #999; /* Placeholder text color */
+  }
+  
+  /* Optional: Apply a box shadow to the input on hover */
+  .search-box input:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .search-box .search-icon {
+    position: absolute; /* Position the search icon absolutely within the search box */
+    right: 44.8%;
+    transform: translate(-50%);
+  }
+
+  .search-box img {
+    width: 20px;
+    height: 20px;
+  }

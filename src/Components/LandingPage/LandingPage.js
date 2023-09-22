@@ -1,6 +1,7 @@
 import React from 'react'
 import './LandingPage.css'
 import StepsCards from '../StepsCards/StepsCards'
+import Graph from '../Graph/Graph'
 
 function LandingPage() {
   return (
@@ -26,6 +27,7 @@ function LandingPage() {
 
       </div>
       <StepsCards/>
+      {/* <Graph/> */}
     </section>
   )
 }

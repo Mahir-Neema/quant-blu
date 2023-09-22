@@ -1,0 +1,19 @@
+.graphcontainer{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin: 150px 60px;
+    /* border: 1px solid red; */
+}
+
+.featureHeading{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.featureContent{
+    font-size: 24px;
+    font-weight: 200;
+    color: #96979E;
+    margin: 20px 0;
+}
